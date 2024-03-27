@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    display: flex;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+}
+.card-1 {
+    background-color: rgb(64, 144, 224);
+}
+.card-2 {
+    background-color: rgb(212, 133, 54);
+}
+.card-3 {
+    background-color: rgb(179, 46, 134);
+}
+.card-4 {
+    background-color: rgb(89, 236, 66);
+}
+.card {
+    margin-right: 50px;
+    width: 500px;
+    height: 230px;
+    border-radius: 15px ;
+    box-shadow: 5px 2px 5px rgb(118, 116, 116);
+    padding-top: 40px;
+}
+.card>i {
+    margin: 0px;
+    font-size: 24px;
+    padding-left: 30px;
+    color: white;
+}
+.x, .x-3 {
+    position: absolute;
+    margin-left: -150px;
+    margin-top: -170px;
+    font-size: 26px;
+    color: white;
+}
+.x-1, .x-4 {
+    position: absolute;
+    margin-left: 940px;
+    margin-top: -170px;
+    font-size: 26px;
+    color: white;
+}
+.text {
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.link {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 24px;
+    color: white;
+}
